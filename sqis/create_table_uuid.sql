@@ -15,3 +15,7 @@ VALUES
 ('Alice'),
 ('Bob'),
 ('Charlie');
+
+UPDATE users_uuid_name
+set name = 'updatedName'
+WHERE id_name = 'ffb496a1-a542-46a8-8032-ba968a8dc19b';
